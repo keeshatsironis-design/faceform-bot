@@ -2,7 +2,7 @@ name: FaceForm Daily Post
 
 on:
   workflow_dispatch:
-schedule:
+  schedule:
   - cron: "17 11,19 * * *"
     timezone: "Europe/Moscow"
 
